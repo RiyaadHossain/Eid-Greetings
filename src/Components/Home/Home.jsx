@@ -8,8 +8,8 @@ const Home = () => {
     <div>
       <div className="App w-full h-[100vh] flex justify-center">
         <div>
-          <h1 className="text-5xl font-bold text-orange-600 mt-56">
-            Wanna Get Wished?
+          <h1 className="text-4xl md:text-5xl text-center font-bold text-orange-600 mt-56">
+            Wanna Get Wished For Eid?
           </h1>
           <div className="text-center mt-10">
             <button onClick={() => navigate('/yourname')} className="button" data-text="Awesome">
