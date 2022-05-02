@@ -28,6 +28,7 @@ const YourName = () => {
             <div className="mt-12 border px-2 border-cyan-500 bg-slate-200 card max-w-[400px] mx-auto h-60 rounded-md flex items-center justify-center p-5">
               <p className="text-white font-semibold text-center text-lg">Dear <span className="text-cyan-500">{name}, </span>May this special day bring peace, happiness and prosperity to everyone. May Allah flood your life with happiness and peace of mind on this occasion. Eid Mubarak ! </p>
             </div>
+            <h3 className=" bg-slate-600 py-2 rounded-md w-[300px]  mx-auto text-center text-lg mt-24 font-semibold text-blue-100">Why Don't You Greet me Back?</h3>
           </div>
         </div>
       ) : (
