@@ -1,0 +1,7 @@
+.App{
+    background-image: url(./Image/eid-sky.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, .5);
+}
