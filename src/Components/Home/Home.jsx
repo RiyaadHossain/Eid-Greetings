@@ -12,7 +12,7 @@ const Home = () => {
             Wanna Get Wished For Eid?
           </h1>
           <div className="text-center mt-10">
-            <button onClick={() => navigate('/yourname')} className="button" data-text="Awesome">
+            <button onClick={() => navigate('/yourmsg')} className="button" data-text="Awesome">
               <span className="actual-text">&nbsp;Of Curse&nbsp;</span>
               <span aria-hidden="true" className="hover-text">
                 &nbsp;Click&nbsp;

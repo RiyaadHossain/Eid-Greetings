@@ -1,18 +1,23 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./Components/Home/Home";
-import WishMsg from "./Components/WishMsg/WishMsg";
 import YourName from "./Components/YourName/YourName";
+import { createContext, useState } from "react";
+import { Toaster } from "react-hot-toast";
+
+export const NameContext = createContext();
 
 function App() {
+  const [name, setName] = useState('');
+
   return (
-    <div>
+    <NameContext.Provider value={[name, setName]}>
+      <Toaster/>
       <Routes>
         <Route path='/' element={<Home />}/>
-        <Route path="/yourname" element={<YourName />}/>
-        <Route path="/wishmsg" element={<WishMsg />}/>
+        <Route path="/yourmsg" element={<YourName />}/>
       </Routes>
-    </div>
+    </NameContext.Provider>
   );
 }
 

@@ -5,6 +5,24 @@
   background-blend-mode: overlay;
   background-color: rgba(0, 0, 0, .5);
 }
+
+.card{
+  background-image: url(./Image/im4.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.wish-bg{
+  background-image: url(./Image/eid2.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, .7);
+
+}
+
 /* From uiverse.io by @adamgiebl */
 .ready-btn {
   --green: #1BFD9C;
