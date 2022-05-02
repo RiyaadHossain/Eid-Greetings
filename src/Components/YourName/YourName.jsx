@@ -9,7 +9,7 @@ const YourName = () => {
     if (yourName) {
       setName(e.target.value);
     } else {
-      toast.error("Plase Type You Name 😒", { id: "test" });
+      toast.error("Plase Type Your Name 😒", { id: "test" });
     }
   };
   return (
@@ -20,13 +20,13 @@ const YourName = () => {
     >
       {name ? (
         <div className="flex justify-center pt-40">
-          <div>
+          <div className="px-2">
             {" "}
-            <h1 className="text-4xl md:text-5xl font-bold text-cyan-500 font-mono">
-              Absolute Not, {name}
+            <h1 className="text-4xl text-center md:text-5xl font-bold text-cyan-500 font-mono">
+              Absolute Not, {name} 
             </h1>
-            <div className="mt-12 border border-cyan-500 bg-slate-200 card w-[400px] h-60 rounded-md flex items-center justify-center p-5">
-              <p className="text-white text-center text-lg">No matter where you are or what you are doing, remember that Allah is always with you to help and guide you in every important step of your life. Eid Mubarak!</p>
+            <div className="mt-12 border px-2 border-cyan-500 bg-slate-200 card max-w-[400px] mx-auto h-60 rounded-md flex items-center justify-center p-5">
+              <p className="text-white font-semibold text-center text-lg">Dear <span className="text-cyan-500">{name}, </span>May this special day bring peace, happiness and prosperity to everyone. May Allah flood your life with happiness and peace of mind on this occasion. Eid Mubarak ! </p>
             </div>
           </div>
         </div>
